@@ -1,4 +1,4 @@
-bat '''pipeline {
+pipeline {
     agent any
     tools {
         maven \'MAVEN\'
@@ -50,4 +50,4 @@ bat '''pipeline {
             }
         }
     }
-}'''
+}
